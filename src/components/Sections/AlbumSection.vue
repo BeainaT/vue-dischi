@@ -11,8 +11,8 @@
 
 <script>
 import axios from 'axios';
-import AlbumComponent from './AlbumComponent.vue';
-import LoaderSpin from './LoaderSpin.vue';
+import AlbumComponent from '../Commons/AlbumComponent.vue';
+import LoaderSpin from '../Commons/LoaderSpin.vue';
 
 
 export default {

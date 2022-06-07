@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import BaseHeader from './components/BaseHeader.vue';
-import BaseMain from './components/BaseMain.vue';
+import BaseHeader from './components/Macro/BaseHeader.vue';
+import BaseMain from './components/Macro/BaseMain.vue';
 
 export default {
     name: 'App',
@@ -19,6 +19,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import './assets/global.scss';
+@import './assets/style/global.scss';
 
 </style>

@@ -2,6 +2,7 @@
   <section>
       <LoaderSpin/>
       <div class="container py-5 v-else">
+          <GenreSelect/>
           <div class="row gap-4 justify-content-center">
               <AlbumComponent class="col-sm-12 col-md-4 col-xl-2" v-for="(album, index) in albums" :key="index" :album="album"/>
           </div>
@@ -13,14 +14,16 @@
 import axios from 'axios';
 import AlbumComponent from '../Commons/AlbumComponent.vue';
 import LoaderSpin from '../Commons/LoaderSpin.vue';
+import GenreSelect from '../Commons/GenreSelect.vue';
 
 
 export default {
     name: 'AlbumSection',
     components: {
-        AlbumComponent,
-        LoaderSpin
-    },
+    AlbumComponent,
+    LoaderSpin,
+    GenreSelect
+},
     data() {
         return {
             albums: [],

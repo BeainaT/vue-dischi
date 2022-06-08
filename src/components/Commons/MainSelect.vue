@@ -2,10 +2,10 @@
 <div class="row justify-content-center">
     <select class="custom_select col-5 p-2 mb-4" v-model="selectedGenre" @click.prevent="$emit('search', selectedGenre)">
         <option value="all" selected>Choose your genre</option>
-        <option value="Rock">1</option>
-        <option value="Pop">2</option>
-        <option value="Jazz">3</option>
-        <option value="Metal">3</option>
+        <option value="Rock">Rock</option>
+        <option value="Pop">Pop</option>
+        <option value="Jazz">Jazz</option>
+        <option value="Metal">Metal</option>
     </select>
 </div>
 </template>

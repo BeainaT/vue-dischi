@@ -44,6 +44,9 @@ export default {
     methods: {
         filterGenre(selectedGenre) {
             this.filteredAlbum = this.albums.filter((album) => album.genre == selectedGenre);
+            if(selectedGenre == 'all') {
+                this.filteredAlbum = this.albums;
+            }
             console.log(selectedGenre)
         }
     }

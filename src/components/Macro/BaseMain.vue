@@ -18,5 +18,6 @@ export default {
     
     main {
         background-color: var(--main_bg_color);
+        min-height: 62.5rem;
     }
 </style>

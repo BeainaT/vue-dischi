@@ -49,13 +49,7 @@ export default {
             }
             console.log(selectedGenre)
         }
-    }
-    // computed: {
-    //     filteredAlbum() {
-    //         return this.albums;
-    //     }
-    // }
-    
+    },    
 }
 </script>
 

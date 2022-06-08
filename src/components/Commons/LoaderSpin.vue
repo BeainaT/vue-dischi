@@ -1,5 +1,5 @@
 <template>
-    <div class="box_animation container" v-if="loading">
+    <div class="box_animation container">
         <div class="loader_spin"></div>
     </div>
 </template>
